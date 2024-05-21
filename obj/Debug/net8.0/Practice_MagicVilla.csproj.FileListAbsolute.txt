@@ -139,3 +139,4 @@ D:\ASP.NET\Practice_MagicVilla\Practice_MagicVilla\bin\Debug\net8.0\runtimes\win
 D:\ASP.NET\Practice_MagicVilla\Practice_MagicVilla\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\ASP.NET\Practice_MagicVilla\Practice_MagicVilla\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\ASP.NET\Practice_MagicVilla\Practice_MagicVilla\obj\Debug\net8.0\Practice_MagicVilla.sourcelink.json
+D:\ASP.NET\Practice_MagicVilla\Practice_MagicVilla\bin\Debug\net8.0\AutoMapper.dll
