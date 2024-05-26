@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Practice_MagicVilla.Data;
 
@@ -11,9 +12,11 @@ using Practice_MagicVilla.Data;
 namespace Practice_MagicVilla.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240526024425_VillaNumber")]
+    partial class VillaNumber
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -70,7 +73,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 1,
                             Amenity = "Private Pool, Ocean View",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4037),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9343),
                             Details = "A spacious suite with luxurious amenities and a stunning ocean view.",
                             ImageUrl = "https://example.com/luxury-suite.jpg",
                             Name = "Luxury Suite",
@@ -83,7 +86,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 2,
                             Amenity = "Balcony, King Size Bed",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4045),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9352),
                             Details = "A deluxe room featuring a king size bed and a private balcony.",
                             ImageUrl = "https://example.com/deluxe-room.jpg",
                             Name = "Deluxe Room",
@@ -96,7 +99,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 3,
                             Amenity = "Kitchenette, Two Queen Beds",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4046),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9353),
                             Details = "Perfect for families, this room includes a kitchenette and two queen beds.",
                             ImageUrl = "https://example.com/family-room.jpg",
                             Name = "Family Room",
@@ -109,7 +112,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 4,
                             Amenity = "Free WiFi, Queen Bed",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4047),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9354),
                             Details = "A standard room with all the essentials for a comfortable stay.",
                             ImageUrl = "https://example.com/standard-room.jpg",
                             Name = "Standard Room",
@@ -122,7 +125,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 5,
                             Amenity = "Office Area, Complimentary Breakfast",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4049),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9355),
                             Details = "An executive suite featuring an office area and complimentary breakfast.",
                             ImageUrl = "https://example.com/executive-suite.jpg",
                             Name = "Executive Suite",
@@ -135,7 +138,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 6,
                             Amenity = "Jacuzzi, Romantic Decor",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4050),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9357),
                             Details = "A romantic suite perfect for honeymooners, complete with a jacuzzi.",
                             ImageUrl = "https://example.com/honeymoon-suite.jpg",
                             Name = "Honeymoon Suite",
@@ -148,7 +151,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 7,
                             Amenity = "Private Elevator, Panoramic View",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4051),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9358),
                             Details = "The presidential suite offers the ultimate in luxury with a private elevator and panoramic views.",
                             ImageUrl = "https://example.com/presidential-suite.jpg",
                             Name = "Presidential Suite",
@@ -161,7 +164,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 8,
                             Amenity = "Living Area, Sofa Bed",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4052),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9359),
                             Details = "A junior suite with a separate living area and a sofa bed.",
                             ImageUrl = "https://example.com/junior-suite.jpg",
                             Name = "Junior Suite",
@@ -174,7 +177,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 9,
                             Amenity = "Single Bed, Free Coffee",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4053),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9360),
                             Details = "A cozy single room with a comfortable single bed and free coffee.",
                             ImageUrl = "https://example.com/single-room.jpg",
                             Name = "Single Room",
@@ -187,7 +190,7 @@ namespace Practice_MagicVilla.Migrations
                         {
                             Id = 10,
                             Amenity = "Two Double Beds, Free Parking",
-                            CreatedDate = new DateTime(2024, 5, 26, 5, 46, 12, 393, DateTimeKind.Local).AddTicks(4054),
+                            CreatedDate = new DateTime(2024, 5, 26, 5, 44, 24, 698, DateTimeKind.Local).AddTicks(9361),
                             Details = "A room with two double beds, ideal for friends traveling together.",
                             ImageUrl = "https://example.com/double-room.jpg",
                             Name = "Double Room",
@@ -196,26 +199,6 @@ namespace Practice_MagicVilla.Migrations
                             Sqft = 700,
                             UpdateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
-                });
-
-            modelBuilder.Entity("Practice_MagicVilla.Models.VillaNumber", b =>
-                {
-                    b.Property<int>("VillaNo")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("SpecialDetails")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("VillaNo");
-
-                    b.ToTable("VillaNumbers");
                 });
 #pragma warning restore 612, 618
         }
